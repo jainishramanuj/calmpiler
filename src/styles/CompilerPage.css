@@ -1,0 +1,114 @@
+.editor{
+    position: relative;
+    margin: 0px 0px 80px;
+}
+.label{
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.editor-label {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-right: 3px solid #44475a;
+}
+.run-button {
+    padding: 6px 20px;
+    font-size: 13px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: green;
+    color: aliceblue;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+.run-button:disabled {
+    background-color: rgb(47, 75, 47);
+    color: rgb(133, 133, 133);
+    cursor:default;
+}
+#language {
+    padding: 6px 0px 6px 12px;
+    font-size: 13px;
+    color: white;
+    background-color: #282a36;
+    border: 0px;
+    border-right: 8px solid #282a36;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.span-button {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.download-button-disabled{
+    margin: 0px 10px;
+    pointer-events: none;
+    color: rgb(85, 85, 85);
+}
+.output{
+    position: relative;
+}
+.input{
+    position: relative;
+}
+.loader {
+    position: absolute;
+    z-index: 10;
+    top: 47%;
+    left: 45%;
+}
+.copy-button {
+    position: absolute;
+    right: 1.5vh;
+    top: 8px;
+
+    border-radius: 50px;
+    color: #dcdcdc;
+}
+.copy-button:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.ai-propmt{
+    margin-top: 20px;
+}
+#ai-textarea {
+    padding: 5px 10px;
+    width: 80vw
+}
+.ai-submit-button{
+    padding: 8px 16px;
+    margin: 0px 15px 5px;
+    font-size: 13px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    border: 0;
+    cursor: pointer;
+}
+.ai-submit-button:disabled{
+    cursor: default;
+    color: rgb(195, 195, 195);
+    background-color: rgb(112, 112, 112);
+}
+.ai-open-link{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.ai-title { 
+    margin: 0px 0px 5px;
+    font-weight: bold;
+}

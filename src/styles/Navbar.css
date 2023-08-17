@@ -1,0 +1,17 @@
+.nav-active-class{
+    border: 1px solid white !important;
+}
+.nav-logo{
+    width: 40px;
+}
+.nav-brandname{
+    margin: 3px 0px 0px 7px;  
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+    color: white !important;
+    margin: 8px 0px 0px 3vw;
+    font-family: 'Quicksand', sans-serif;
+}

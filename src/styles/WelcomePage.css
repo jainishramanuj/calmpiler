@@ -1,0 +1,36 @@
+.img_1{
+    width: 50vw;
+    height: 80vh;
+}
+.img_2{
+    width: 50vw;
+    height: 80vh;
+}
+.welcome-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    line-height: 1.2;
+    color: black;
+}
+.under-welcome{
+    font-size: 1em;
+    margin: 15px 5px ;
+    line-height: 1.2;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    color: rgb(54, 54, 54);
+}
+.compiler-button{
+    width: 120px;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.compiler-button:hover{
+    border-radius: 2px;
+}
